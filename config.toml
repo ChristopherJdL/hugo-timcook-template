@@ -1,0 +1,40 @@
+# Site settings
+baseURL = "https://example.com"
+languageCode = "en-US"
+title = "Split - HTML Template Demo"
+theme = "split"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Local preview mode
+relativeURLs = true
+uglyURLs = true
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "© Apple Inc."
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Tim Cook"
+  description = "Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content."
+  shareImage = "images/social.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = false
+      file = "https://media.vogue.fr/photos/5c2f4de062d3e11fb3a59d6b/master/w_660,h_739,c_limit/sub_7114.jpeg"
+      position = "center"
+    [params.visual.video]
+        enable = true
+        mute = true
+        youtubeId = "4IQStrUnUKM"
